@@ -27,6 +27,9 @@ Example 3:
 # My Solution:
 
 Runtime: 5 ms
+
 **Beats: 89.07% of solutions**
+
 Memory: 14.36 mb
+
 **Beats: 37.86% of solutions**

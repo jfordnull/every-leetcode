@@ -25,7 +25,10 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 # My Solution:
 
 Runtime: 12ms
-**Beats: 94.88% of solutions** [O(Max(l1,l2))]
+
+**Beats: 94.88% of solutions**
+
 Memory: 77.38 mb
+
 **Beats: 89.89% of solutions**
 
