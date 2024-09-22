@@ -22,10 +22,10 @@ You may assume the two numbers do not contain any leading zero, except the numbe
 	Input: l1 = [9,9,9,9,9,9,9], l2 = [9,9,9,9]
 	Output: [8,9,9,9,0,0,0,1]
 
-**My Solution:**
+# My Solution:
 
-	Runtime: 12ms
-	Beats: 94.88% of solutions [O(Max(l1,l2))]
-	Memory: 77.38 mb
-	Beats: 89.89% of solutions
+Runtime: 12ms
+**Beats: 94.88% of solutions** [O(Max(l1,l2))]
+Memory: 77.38 mb
+**Beats: 89.89% of solutions**
 
