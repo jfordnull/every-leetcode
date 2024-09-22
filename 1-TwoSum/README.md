@@ -24,9 +24,9 @@ Example 3:
 	Input: nums = [3,3], target = 6
 	Output: [0,1]  
 
-My Solution:
+# My Solution:
 
-	Runtime: 5 ms
-	Beats: 89.07% of solutions
-	Memory: 14.36 mb
-	Beats: 37.86% of solutions
+Runtime: 5 ms
+**Beats: 89.07% of solutions**
+Memory: 14.36 mb
+**Beats: 37.86% of solutions**
