@@ -28,25 +28,24 @@ Example 3:
 
 # My Solution:
 
-Runtime: 5 ms
+Runtime: 3 ms
 
-**Beats: 89.07% of solutions**
+**Beats: 98.44% of solutions**
 
-Memory: 14.36 mb
+Memory: 14.63 mb
 
-**Beats: 37.86% of solutions**
+**Beats: 15.29% of solutions**
 
 ```C++
 class Solution {
 public:
     vector<int> twoSum(vector<int> nums, int target){
-        unordered_map<int, int> delta;
+        map<int, int> delta;
         for (int i=0;i<nums.size();i++){
             if(delta.find(nums[i])!=delta.end()) return {delta.at(nums[i]),i};
-            delta.insert(pair<int,int>(target-nums[i],i));
+            delta[target-nums[i]]=i;
         }
         return {0,0};
     }
-    
 };
 ```
